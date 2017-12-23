@@ -25,7 +25,7 @@ def contact_page(request):
 	}
     if contact_form.is_valid():
          print(contact_form.cleaned_data)      
-	return render(request, "contact/view.html",context)
+    return render(request, "contact/view.html",context)
 
 	#if request.method =='POST':
     #      print(request.POST)
